@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CreateVilleActivity">
+
+    <TextView
+        android:id="@+id/nomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:layout_marginTop="20dp"
+        android:text="Nom ville" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_type1"
+        android:layout_weight="1"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:id="@+id/paysText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:layout_marginTop="20dp"
+        android:text="Pays" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_type2"
+        android:layout_weight="1"
+        android:background="@android:drawable/editbox_background"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Ajouter"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
+        />
+
+
+
+</LinearLayout>

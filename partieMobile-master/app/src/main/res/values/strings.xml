@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HistoricMonuments</string>
+    <string name="google_map_key">AIzaSyB7Zs0olUYd10DYNum0jRG636e2A1KPqhI</string>
+    <string name="cd_dec_val">Decrease value</string>
+    <string name="value_limit_default">10</string>
+    <string name="cd_inc_val">Increase value</string>
+    <string name="label_limit_landmarks">Limit the number of landmarks</string>
+    <string name="nav_arrow">Navigation Arrow</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".activities.EditZoneActivity">
+
+<EditText
+    android:id="@+id/nomText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:layout_marginTop="20dp"
+    android:hint="Nom zone" />
+
+<EditText
+    android:id="@+id/longitudeText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:layout_marginTop="20dp"
+    android:inputType="numberDecimal"
+    android:hint="Longitude" />
+
+<EditText
+    android:id="@+id/lattitudeText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:layout_marginTop="20dp"
+    android:inputType="numberDecimal"
+    android:hint="Lattitude" />
+
+<Button
+    android:id="@+id/editButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="Modifier"
+    android:textColor="@color/black"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:backgroundTint="@color/blue"
+    android:drawableLeft="@drawable/ic_baseline_edit_24"
+    />
+
+</LinearLayout>
